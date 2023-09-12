@@ -16,14 +16,36 @@
     <properties>
         <encoding>UTF-8</encoding>
         <java.version>11</java.version>
+        <!-- versions -->
+        <dropwizard.version>4.0.1</dropwizard.version>
+        <auth0-java-jwt.version>4.4.0</auth0-java-jwt.version>
+        <junit.version>5.10.0</junit.version>
     </properties>
 
     <dependencies>
 
         <dependency>
+            <groupId>io.dropwizard</groupId>
+            <artifactId>dropwizard-core</artifactId>
+            <version>${dropwizard.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.dropwizard</groupId>
+            <artifactId>dropwizard-auth</artifactId>
+            <version>${dropwizard.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.auth0</groupId>
+            <artifactId>java-jwt</artifactId>
+            <version>${auth0-java-jwt.version}</version>
+        </dependency>
+
+        <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
-            <version>5.10.0</version>
+            <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
 
