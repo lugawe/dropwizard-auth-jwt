@@ -1,4 +1,4 @@
-package de.lugawe.dropwizard.auth.jwt;
+package de.lugawe.dropwizard.auth.cookie;
 
 import io.dropwizard.auth.AuthFilter;
 import jakarta.annotation.Priority;
