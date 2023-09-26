@@ -17,7 +17,7 @@
         <encoding>UTF-8</encoding>
         <java.version>11</java.version>
         <!-- versions -->
-        <dropwizard.version>4.0.1</dropwizard.version>
+        <dropwizard.version>4.0.2</dropwizard.version>
         <auth0-java-jwt.version>4.4.0</auth0-java-jwt.version>
         <junit.version>5.10.0</junit.version>
     </properties>
